@@ -1,0 +1,127 @@
+/* General styling for readability and visual clarity */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  /* Table styling for organization and visual emphasis */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: auto;
+    width: fit-content;
+  }
+  
+  th {
+    background-color: wheat; /* Light gray header background */
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row colors */
+  }
+  
+  /* Form styling for consistency and user-friendliness */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"],
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green button background */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    text-decoration: none;
+  }
+
+
+  .follow-up-button {
+    color: white;
+    background-color: #007fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+  }
+
+  select {
+    width: 100%; /* Adjust as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit; /* Inherit font from parent element */
+    font-size: 14px; /* Adjust as needed */
+    -webkit-appearance: none; /* Remove default arrow on some browsers */
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 10px;
+    }
+  
+    /* Placeholder styling */
+    select::placeholder {
+    color: #999; /* Adjust placeholder color */
+    }
+  
+    /* Arrow customization */
+    select::-ms-expand {
+    display: none; /* Hide arrow on Internet Explorer */
+    }
+  
+    /* Custom arrow (optional) */
+    select {
+    background-image: url("select.svg"); /* Replace with your arrow image */
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right 20px center;
+    }
+  
+    /* Hover effect (optional) */
+    select:hover {
+    border-color: #007bff; /* Highlight on hover */
+    }
+  
+    /* Focus effect */
+    select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Highlight on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glow */
+    }

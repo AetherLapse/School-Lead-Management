@@ -1,0 +1,8 @@
+full_name,email,phone_number,applying_for_class,query
+
+# Do not remove header
+# Fill data in this format
+
+John Doe,johndoe@example.com,1234567890,Math,I'm interested in learning more about the Math class.
+
+# Remove the hastag lines when editing the file. 
